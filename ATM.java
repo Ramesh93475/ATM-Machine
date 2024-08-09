@@ -1,0 +1,26 @@
+public class ATM{
+    private double depositAmount;
+    private double balance;
+    private double withdrawAmount;
+    public ATM()
+    {
+    }
+    public double getBalance(){
+        return balance;
+    }
+    public void setBalance(double balance){
+        this.balance=balance;
+    }
+    public double getDepositAmount(){
+        return depositAmount;
+    }
+    public void setDepositAmount(double depositAmount){
+        this.depositAmount=depositAmount;
+    }
+    public double getWithdrawAmount(){
+        return withdrawAmount;
+    }
+    public void setWithdraWamount(double withdrawAmount){
+        this.withdrawAmount=withdrawAmount;
+    }
+}
